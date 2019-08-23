@@ -1,0 +1,17 @@
+# Provide Cloud Foundry space, Org, api and login host details:
+COMMON:
+  cf_space_name: TestSpace # Cloud Foundry Space Name
+  cf_org_name: TESTORG # Cloud Foundry Org Name
+
+CLOUDFOUNDRYSERVICENAMES: ## Enter the Cf Service Names. Example : s3 - hsdp-s3, vault - hsdp-vault
+  s3service:
+    hsdp-s3
+  vaultservice:
+    hsdp-vault
+  rabbitmqservice:
+    hsdp-rabbitmq
+
+# Application name .
+APPLICATIONS:
+   - << Application Name >> # Example sankar-application
+
