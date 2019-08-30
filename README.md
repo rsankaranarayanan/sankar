@@ -1,4 +1,4 @@
-Usage of Cloud Foundry Operation.
+Cloud Foundry Operation:
 
 -- Authentication
 
